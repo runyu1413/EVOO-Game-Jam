@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private float jumpForce = 11f;
-
     private float movementX;
 
     [SerializeField]
@@ -34,10 +33,10 @@ public class Player : MonoBehaviour
     {
         PlayerMoveKeyboard();
         PlayerJump();
+        HealthBarIncrease();
     }
     void PlayerMoveKeyboard()
     {
-        
         movementX = Input.GetAxisRaw("Horizontal");
         transform.position += new Vector3(movementX, 0f, 0f) * Time.deltaTime * moveForce;
     }
@@ -55,5 +54,9 @@ public class Player : MonoBehaviour
         {
             isGrounded = true;
         }
+    }
+    private void HealthBarIncrease()
+    {
+        MentalHealthBar.health += 0.01f * movementX;
     }
 }
