@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637783673794602736
+      ticks: 637783580357539840
     m_Hash: 3533921098
   m_LockFileStatus:
     m_FilePath: C:/Users/kongt/Documents/GitHub/EVOO-Game-Jam/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637783673973975368
+      ticks: 637783580502416899
     m_Hash: 2154246561
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3282,6 +3282,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         compatible:
         - 0.1.5-preview
         - 0.1.6-preview
@@ -3289,6 +3290,7 @@ m_PackageAssets:
         - 1.0.0
         - 1.0.5
         - 1.0.6
+        - 2.0.2
         verified: 1.0.6
       dependencies: []
       resolvedDependencies: []
@@ -3569,6 +3571,7 @@ m_PackageAssets:
         - 2.0.1
         - 2.0.2
         - 2.1.0
+        - 2.1.1
         - 3.0.0
         - 3.0.1
         - 4.0.0
@@ -3576,6 +3579,7 @@ m_PackageAssets:
         - 4.0.2
         - 4.0.3
         - 4.0.4
+        - 4.1.0
         - 5.0.0-pre.1
         - 5.0.0-pre.2
         - 5.0.0
@@ -3589,6 +3593,7 @@ m_PackageAssets:
         - 7.0.0-pre.4
         compatible:
         - 4.0.4
+        - 4.1.0
         verified: 4.0.4
       dependencies:
       - name: com.unity.2d.sprite
